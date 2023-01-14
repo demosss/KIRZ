@@ -4,4 +4,15 @@
     <string name="bt_navigation_name">Привязка по данным ГНСС</string>
     <string name="bt_orientation_ogz_name">Ориентирование (ОГЗ)</string>
     <string name="bt_orientation_kompass_name">Ориентирование (Компас)</string>
+    <string name="bt_calculate">Рассчитать</string>
+
+
+    <string name="et_x_rls">X РЛС:</string>
+    <string name="et_y_rls">Y РЛС:</string>
+    <string name="et_x_orient">X ориентира:</string>
+    <string name="et_y_orient">Y ориентира:</string>
+
+    <string name="tv_distance">Расстояние, м:</string>
+    <string name="tv_dir_du">Направление, ду:</string>
+    <string name="tv_dir_grad">Направление, град:</string>
 </resources>

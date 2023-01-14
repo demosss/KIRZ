@@ -1,5 +1,6 @@
 package com.example.kirz
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kirz.databinding.ActivityMainBinding
@@ -10,5 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.bOGZ.setOnClickListener {
+            val intent = Intent(this, ActivityOGZ::class.java)
+            startActivity(intent)
+        }
     }
 }
