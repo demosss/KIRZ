@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">KIRZ</string>
+    <string name="app_name">КИРЗ ПВО</string>
+    <string name="bt_points_name">Позиции, ориентиры</string>
+    <string name="bt_navigation_name">Привязка по данным ГНСС</string>
+    <string name="bt_orientation_ogz_name">Ориентирование (ОГЗ)</string>
+    <string name="bt_orientation_kompass_name">Ориентирование (Компас)</string>
 </resources>
